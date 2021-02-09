@@ -1,5 +1,8 @@
 #ifndef UNTITLED_DATE_H
 #define UNTITLED_DATE_H
+#include <string>
+
+using namespace std;
 
 class Date {
 private:
@@ -43,6 +46,20 @@ public:
         SetMonth(month);
         SetDay(day);
     }
+    int GetYear()
+    {
+        return year;
+    }
+    int GetMonth()
+    {
+        return month;
+    }
+    int GetDay()
+    {
+        return day;
+    }
+
+
 };
 
 #endif //UNTITLED_DATE_H
